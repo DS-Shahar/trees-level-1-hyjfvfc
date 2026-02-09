@@ -192,7 +192,7 @@ public static void main(String[] args) {
    /////////////////////////////////////////////////
    public static int ex27(BinNode<Integer> T) { 
        if(T==null)
-      return 0;
+      return -1;
 
     
        int leftHight=ex27(T.getLeft());
